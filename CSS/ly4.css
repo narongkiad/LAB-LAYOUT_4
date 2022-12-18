@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background: white;
+}
+
+.Header{
+    background-color: rgb(51, 51, 51);
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+}
+
+.leftcolumn {   
+    float: left;
+    width: 65%;
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+  
+.rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #f1f1f1;
+    margin-right: 20px;
+}
+
+.Intro{
+    background-color: #a2a2a2;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Info1{
+    background-color: #6c6c6c;
+    width: 18%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 20px;
+}
+.Info2{
+    background-color: #6c6c6c;
+    width: 18%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 20px;
+}
+.Info3{
+    background-color: #6c6c6c;
+    width: 18%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 20px;
+}
+.Banner{
+    background-color: #9a9898;
+    width: 37%;
+    height: 620px;
+    float: right;
+}
+.Picture1{
+    background-color: #949292;
+    width: 18%;
+    height: 150px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+.Picture2{
+    background-color: #949292;
+    width: 18%;
+    height: 150px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+.Picture3{
+    background-color: #949292;
+    width: 18%;
+    height: 150px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+.Text1{
+    background-color: #bebebe;
+    width: 18%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10px;  
+}
+.Text2{
+    background-color: #bebebe;
+    width: 18%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+.Text3{
+    background-color: #bebebe;
+    width: 18%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10px;
+    text-overflow: clip;
+}
+.Footer{
+    background-color: #6c6c6c;
+    width: 60%;
+    height: 93px;
+    float: left;
+}
+
+.Picture-right{
+    background-color: #6c6c6c;
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-bottom: 25px;
+}
+.Right-intro{
+    background-color: #6c6c6c;
+    float: left;
+    width: 25%;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.Right-picture{
+    background-color: #8e8d8d;
+    float: left;
+    width: 10%;
+    height: 100px;
+    margin-right: 20px;
+}
+
+
+
+  
+
